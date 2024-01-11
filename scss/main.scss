@@ -1,0 +1,17 @@
+$primary-color: #541515;
+$accent-color: #000000;
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: $primary-color;
+    .hello{
+        @include flex-center();
+        background-color: $accent-color;
+        h1 {
+            color: blue;
+        }
+    }
+}

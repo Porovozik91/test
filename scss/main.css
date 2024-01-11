@@ -1,0 +1,14 @@
+main {
+  background-color: #541515;
+}
+main .hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+main .hello h1 {
+  color: blue;
+}
+
+/*# sourceMappingURL=main.css.map */
